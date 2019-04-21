@@ -17,12 +17,13 @@ Original   https://github.com/mgo-tec/SD_UTF8toSJIS
 参照ブログ https://www.mgo-tec.com  
   
 ## Usage  
+See sample code: "sample.lua"
 
 ### Description of the command
 
 command | description
 --- | ---
-strSJIS, sj_length =<br> UTF8toSJIS:UTF8_to_SJIS_str_cnv(f2, strUTF8)|**f2:** table file handle<br>**strUTF8:** UTF-8 string<br><br>**strSJIS:** Shift-JIS string. If f2 is nil return nil.<br>**sj_length:** Shift-JIS string length
+strSJIS, sj_length =<br> UTF8toSJIS:UTF8_to_SJIS_str_cnv(f2, strUTF8)|**f2:** table file handle<br>**strUTF8:** UTF-8 string<br><br>**strSJIS:** Shift-JIS string<br>  If f2 is nil then return nil<br>**sj_length:** Shift-JIS string length
 
 
 ## Licence  
